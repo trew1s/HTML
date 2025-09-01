@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <caption>My Favorite Movies</caption>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>The Shawshank Redemption</td>
+            <td>Frank Darabont</td>
+            <td>1994</td>
+        </tr>
+        <tr>
+            <td>The Godfather</td>
+            <td>Francis Ford Coppola</td>
+            <td>1972</td>
+        </tr>
+        <tr>
+            <td>The Dark Knight</td>
+            <td>Christopher Nolan</td>
+            <td>2008</td>
+        </tr>
+        <!-- New row with colspan and rowspan -->
+        <tr>
+            <td rowspan="2">Inception</td>
+            <td>Christopher Nolan</td>
+            <td>2010</td>
+        </tr>
+        <tr>
+            <td colspan="2">Won 4 Oscars</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

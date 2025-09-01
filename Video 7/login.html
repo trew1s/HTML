@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+</head>
+
+<body>
+    <form action="post">
+        <div>
+            <label for="username">Your username:</label>
+            <input type="text" id="username" name="username" required placeholder="Enter Your Username" maxlength="150" size="50" autofocus pattern="[AA-00-aa00]+">
+        </div>
+
+
+        <br>
+
+        <div>
+            <label for="email">Enter Your email:</label>
+            <input type="email" id="email" name="email" placeholder="johndoe@example.com" value="johndoe@example.com">
+        </div>
+
+        <br>
+
+
+
+        <div>
+            <label for="password">Enter Your Password</label>
+            <input type="password" id="password" name="password" required placeholder="Enter Your Password" maxlength="150" size="50">
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <p><b>Gender:</b></p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+
+
+        <br> 
+        
+        
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" required checked>
+            <label for="subscribe">Subscribe to our newsletter</label>
+        </div>
+
+
+
+        <br>
+
+
+
+        <div>
+            <input type="date" id="dob" name="dob" placeholder="2000-01-01" min="1900-01-01" max="2024-12-31">
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <input type="file" id="profilePic" name="profilePic" accept=".jpg, .jpeg, .png">
+        </div>
+
+        <br>
+
+
+        <div>
+            <select name="car" id="car">
+                <option value="Volvo">Volvo</option>
+                <option value="BMW">BMW</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <textarea name="bio" id="bio" placeholder="Tell us about yourself..."></textarea>
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <input type="reset" id="reset" name="reset" value="Reset">
+        </div>
+
+
+        <br>
+
+        
+        <div>
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>

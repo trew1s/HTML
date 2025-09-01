@@ -1,0 +1,9 @@
+/* IDs and classes CSS Selectors */
+.description {
+    font-size: 1.2em;
+    color: #ff0000;
+}
+
+#para {
+    color:aquamarine
+}

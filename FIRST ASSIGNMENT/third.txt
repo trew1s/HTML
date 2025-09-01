@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="description" content="This web page does not work since it is coded in a .txt file">
+       <title>Not Working</title>
+       <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+        This web page is not working.
+        <script src="Script.js"></script>
+
+   </body>
+</html>
