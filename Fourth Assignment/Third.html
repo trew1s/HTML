@@ -1,0 +1,52 @@
+<!-- Q.) Create a Travel Website form. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Bus</title>
+</head>
+<body>
+    <h1>Travel Website</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+        <label for="country">Country:</label>
+        <input list="countries" id="country" name="country" placeholder="Enter your country" required>
+        <datalist id="countries">
+            <option value="USA">
+            <option value="Canada">
+            <option value="UK">
+            <option value="Australia">
+            <option value="India">
+        </datalist>
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" placeholder="Enter your destination" required>
+
+        <label for="date">Travel Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="other">Other Information:</label>
+        <textarea name="other" id="other" placeholder="Enter any other information for the trip"></textarea>
+
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+        <input type="hidden" name="user_device" value="desktop">
+    </form>
+</body>
+</html>
